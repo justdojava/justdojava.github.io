@@ -1,9 +1,10 @@
 ---
-layout:post
+layout: post
+categories: Java
 title: Activity 工作流中的表，原来表示的是这些
-catgories: 
-tags:
-    - 懿
+tagline: by 懿
+tags: 
+  - 懿
 ---
 
 前几天，阿粉给大家说了关于 Activiti 的使用，后台就有好友私信阿粉说，这些表都不知道是什么意思，不行呀，看不明白呀，于是阿粉就打算再这次给大家讲一下关于 Activiti 的这些表中的字段都是表示的什么意思。
@@ -226,7 +227,7 @@ tags:
 - DURATION_: 耗时
 
 - START_USER_ID_: 起草人的ID
- 
+
 - START_ACT_ID_: 开始节点ID
 
 - END_ACT_ID_: 结束节点ID
@@ -412,7 +413,7 @@ tags:
 - DEPLOYMENT_ID_: 部署表ID
 
 - RESOURCE_NAME_: 流程bpmn文件名称
- 
+
 - DGRM_RESOURCE_NAME_: png流程图片名称
 
 - DESCRIPTION_: 描述信息
@@ -428,7 +429,7 @@ tags:
 - REV_: 乐观锁
 
 - EVENT_TYPE_: 事件类型
- 
+
 - EVENT_NAME_: 事件名称
 
 - EXECUTION_ID_: 执行实例ID
@@ -486,7 +487,7 @@ tags:
 - TYPE_: 用户组类型 主要分为以下几种：assignee、candidate、owner、starter、participant。即：受让人,候选人,所有者、起动器、参与者
 
 - USER_ID_: 用户ID
- 
+
 - TASK_ID_: 任务Id
 
 - PROC_INST_ID_: 流程实例ID
@@ -504,7 +505,7 @@ tags:
 - LOCK_EXP_TIME_: 锁定释放时间
 
 - LOCK_OWNER_: 挂起者
- 
+
 - EXCLUSIVE_: 
 
 - EXECUTION_ID_: 执行实例ID
