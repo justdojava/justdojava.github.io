@@ -1,9 +1,10 @@
 ---
-layout:post
+layout: post
+categories: Java
 title: 公司降薪逼迫员工降薪，看程序员如何怒怼公司
-catgories: 
-tags:
-    - 懿
+tagline: by 懿
+tags: 
+  - 懿
 ---
 
 #### 事情起末
