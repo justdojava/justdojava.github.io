@@ -1,14 +1,15 @@
 ---
-layout:post
+layout: post
+categories: 抓包工具
 title: 手把手教你学会如何使用WireShark进行抓包
-catgories: 抓包工具
-tags:
-    - 懿
+tagline: by 懿
+tags: 
+  - 懿
 ---
 
 前段时间，因为同事需要分析数据，所以使用了WireShark，但是呢，小伙子不太知道怎么抓取数据，于是就来询问了一下阿粉，阿粉就手把手的教给他，如何使用WireShark进行抓包分析，在这里也分享给大家。
 
-<--more-->
+<!--more-->
 
 ### 1.什么是WireShark
 
@@ -101,11 +102,11 @@ WireShark实际上是有前身的，他的前身叫做Ethereal，它就是用于
 比如我们知道IP地址，那么我们就能：
 
  ip.src == 192.168.1.8
- 
+
  我们知道端口号是 8080，那么我们就可以：
- 
+
  tcp.port == 8080
- 
+
 再比如说我们处理HTTP里面的"Get"请求：
 
 http.request.method=="GET" ，POST方法同样。
