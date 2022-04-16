@@ -12,6 +12,8 @@ Hello，大家好，我是阿粉~
 
 上次我们分享 [Redis 字符串的底层原理](https://mp.weixin.qq.com/s/8Aw-A-8FdZeXBY6hQlhYUw)，今天我们再来看下 Redis `List` 列表的底层原理。
 
+<!--more-->
+
 ## Redis List 命令
 
  Redis `List` 列表支持的相关指令比较多，比如单个元素增加、删除操作，也支持多个元素范围操作。

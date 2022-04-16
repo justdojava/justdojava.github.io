@@ -1,9 +1,10 @@
 ---
-layout:post
+layout: post
+categories: Java
 title: 从面试题，分析面试官到底想问些什么？(面试必须)
-catgories: JDK
-tags:
-    - 懿
+tagline: by 懿
+tags: 
+  - 懿
 ---
 
 <--more-->
